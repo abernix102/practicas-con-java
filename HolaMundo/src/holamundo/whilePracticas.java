@@ -16,13 +16,7 @@ public class whilePracticas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String textoDeEntrada = scanner.nextLine().toLowerCase().replaceAll("\\s+", "");
-        while (!textoDeEntrada.equals("salida")) {
-            System.out.println("la palabra es " + textoDeEntrada );
-            System.out.println("ingrese una palabra");
-            textoDeEntrada = scanner.nextLine();
-        }
+        
     }   
         // TODO code application logic here
         /**int contador = 10;
@@ -32,5 +26,14 @@ public class whilePracticas {
         }
     }
     */
+          /**Scanner scanner = new Scanner(System.in);
+        String textoDeEntrada = scanner.nextLine().toLowerCase().replaceAll("\\s+", "");
+        while (!textoDeEntrada.equals("salida")) {
+            System.out.println("la palabra es " + textoDeEntrada );
+            System.out.println("ingrese una palabra");
+            textoDeEntrada = scanner.nextLine();
+        }        /**Scanner scanner = new Scanner(System.in);
+
+        */
        
 }
